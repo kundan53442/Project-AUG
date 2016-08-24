@@ -2,6 +2,51 @@ body{
 	margin: 0px 12%;
 	padding: 0;
 }
+
+   /* --------------------- Front Page styling---------------*/
+
+.front_page{
+           
+           background-color: #266D85;
+           height: 45em;
+           box-shadow: 5px 10px 10px #888888;
+           padding: 75px;
+}
+
+.f_text{
+
+	color: white;
+	text-align: center;
+	padding: 15px;
+    line-height: 2;
+    font-size: 50px;
+    text: bold;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.f_para{
+
+	color: white;
+	text-align: center;
+	padding: 15px;
+    font-size: 2em;
+    text: bold;
+}
+
+#f_button{
+	 
+	 margin-left: 30%;
+}
+
+.h_button{
+	padding: 10px;
+}
+  
+@media screen and (max-width: 768px){
+        
+ 
+}
+  
   /* ---------------------- Header --------------------------*/
 .header{
 

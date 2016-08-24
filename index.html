@@ -9,30 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font family -->
+    <link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
+
 
     <link rel="stylesheet" type="text/css" href="css/frontpage.css">
 
-    <!-- <style type="text/css">
-      body{
-       
-       background: url("back-ground.png") no-repeat center;
-       background-size: 100% 50em; 
-       background-position: 0px 12%;
-
-      }
-        @media screen and (max-width: 768px){
-        
-        body{
-        background-size: 95% 50em;
-        }
-
-      }
-    </style> -->
  </head>
 
-  <body>
-      <!-- <div class="front_page"></div> -->
+  <body> 
+               <!-- *************** front page desin******-->
+      <div class="front_page" id="front_page">
+      <div class="row">
+          <div class="col-sm-12">
+              <h1 class="f_text">easyresumemaker.com<br>WELCOMES You!! 
+              </h1><br>
+              <p class="f_para">Create Your Resume in just SIX Simple Steps!!</p><br><br>
+              <div class="h_button">
+              <button type="button" class="btn btn-success" id="f_button">GET STARTED!!</button>
+              </div>
+          </div>
+      </div>
+      </div>    
 
+           <!--Inside-->
       <div class="row inside" id="inside">
          <!-- ******************** Header  ********************************-->
           <div class="row ">
@@ -54,7 +54,7 @@
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">Name:</label>
                      <div class="col-sm-8">
-                     <input type="text" class="form-control text-capitalize" id="usr_name" placeholder="Your Certificate Name" required="">
+                     <input type="text" class="form-control text-capitalize" id="usr_name" placeholder="Your Certificate Name" required>
                      </div>
                   </div>
                   <div class="form-group">
@@ -76,8 +76,8 @@
                     </div>
                   </div>
                   <div class="step_button">
-                  <button type="submit" class="btn btn-success left_step1_button"><a href="#home">Home</a></button>
-                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step2">Next</a></button>
+                  <button type="button" class="btn btn-success left_step1_button" id="s1_home">Home</button>
+                  <button type="button" class="btn btn-success right_step1_button" id="s1_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -105,8 +105,8 @@
                     </div>
                   </div>
                   <div class="step_button">
-                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step1">Previous</a></button>
-                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step3">Next</a></button>
+                  <button type="button" class="btn btn-success left_step1_button" id="s2_p">Previous</button>
+                  <button type="button" class="btn btn-success right_step1_button" id="s2_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -207,8 +207,8 @@
                      </div>
                   </div><br><br>
                   <div class="step_button">
-                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step2">Previous</a></button>
-                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step4">Next</a></button>
+                  <button type="button" class="btn btn-success left_step1_button" id="s3_p">Previous</button>
+                  <button type="button" class="btn btn-success right_step1_button" id="s3_n">Next</button>
                   </div>
 
                 </div>
@@ -231,8 +231,8 @@
                     </div>
                   </div>
                   <div class="step_button">
-                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step3">Previous</a></button>
-                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step5">Next</a></button>
+                  <button type="button" class="btn btn-success left_step1_button" id="s4_p">Previous</button>
+                  <button type="button" class="btn btn-success right_step1_button" id="s4_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -277,8 +277,8 @@
                     </div>
                   </div>
                   <div class="step_button">
-                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step4">Previous</a></button>
-                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step6">Next</a></button>
+                  <button type="button" class="btn btn-success left_step1_button" id="s5_p">Previous</button>
+                  <button type="button" class="btn btn-success right_step1_button" id="s5_n">Next</button>
                   </div>  
                 </div>
               </form>
@@ -298,10 +298,14 @@
           </div>
       </div><!--row inside end-->
 
+      
+      <!-- jQuery -->
+      <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+
       <!-- JavaScript Personal -->
       <script type="text/javascript" src="js/frontpage.js"</script>
 
-      <!-- jQuery -->
-      <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+      
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
   </body>
 </html>
