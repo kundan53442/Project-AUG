@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	  <title>Easy Resume Maker</title>
+	  <!-- Page icon at top -->
+    <link rel="icon" href="surfing.jpg" type="image/x-icon" />
+
+    <!-- for responsive web design and disable zooming capabilities on mobile devices by adding user-scalable=no -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/frontpage.css">
+
+    <!-- <style type="text/css">
+      body{
+       
+       background: url("back-ground.png") no-repeat center;
+       background-size: 100% 50em; 
+       background-position: 0px 12%;
+
+      }
+        @media screen and (max-width: 768px){
+        
+        body{
+        background-size: 95% 50em;
+        }
+
+      }
+    </style> -->
+ </head>
+
+  <body>
+      <!-- <div class="front_page"></div> -->
+
+      <div class="row inside" id="inside">
+         <!-- ******************** Header  ********************************-->
+          <div class="row ">
+            <div class="header" id="header">
+                <h1 class="header_h1">easyreumemaker.com</h1>
+                <p class="header_p"><a href="#home">HOME</a></p> 
+            </div>
+      	  </div>
+
+           <!--********************* Step 1  ***************************-->
+          <div class="row step" id="step1">
+            <div class="step1 stepall">
+              <p class="step1 stepall">Step 1 of 6.</p>
+            </div>
+           <!-- ****************** step 1 form ************************-->
+            <div class="step1_form stepall_form" id="step1_form">
+              <form>
+                <div class="form-horizontal">
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Name:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="usr_name" placeholder="Your Certificate Name" required="">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="inputEmail3" class="col-sm-4 control-label">Email:</label>
+                     <div class="col-sm-8">
+                     <input type="email" class="form-control text-lowercase" id="inputEmail3" placeholder="Email" required="">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="usr" class="col-sm-4 control-label">Phone:</label>
+                    <div class="col-sm-8">
+                    <input type="tel" class="form-control" id="usr_phone" placeholder="xxxxxxxxxx" value="+91" maxlength="13" name="phone" required="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="usr" class="col-sm-4 control-label">Specialization:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="usr_specialization" placeholder="Your Specialization" required="">
+                    </div>
+                  </div>
+                  <div class="step_button">
+                  <button type="submit" class="btn btn-success left_step1_button"><a href="#home">Home</a></button>
+                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step2">Next</a></button>
+                  </div>
+                </div>  
+              </form>
+            </div>
+          </div>
+            <!--********************************step2*********************-->
+          <div class="row step" id="step2">
+            <div class="step2 stepall" >
+              <p class="step2 stepall">Step 2 of 6.</p>
+            </div>
+            <!--*******************************step2 form *************-->
+          <div class="step2_form stepall_form">
+              <form>
+                <div class="form-horizontal">
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Years of experience:</label>
+                     <div class="col-sm-8">
+                     <input type="number" class="form-control" id="usr_exp" placeholder="Select no. of years of expeience you have" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="comment" class="col-sm-4 control-label">Job Description:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="job_description" ></textarea>
+                    </div>
+                  </div>
+                  <div class="step_button">
+                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step1">Previous</a></button>
+                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step3">Next</a></button>
+                  </div>
+                </div>  
+              </form>
+           </div>        
+          </div>
+             <!--********************************step3*********************-->
+          <div class="row step" id="step3">
+            <div class="step3 stepall" >
+              <p class="step3 stepall">Step 3 of 6.</p>
+            </div>
+              <!--*******************************step3 form *************-->
+            <div class="step3_form stepall_form">
+            <p class="step3_p">Note: Enter your qualification details in prioritize order(Higher first)</p>
+              <form>
+                <div class="form-horizontal">
+                  <div class="form-group"> 
+                     <label for="Qualification" class="col-sm-4 control-label">Highest Qualification:</label>
+                     <div class="col-sm-8">
+                     <select class="form-control" id="qualification1" placeholder="Enter your qualification in prioritize order" required="">
+                     <option>Graduation</option>
+                     <option>12th</option>
+                     <option>10th</option>
+                     </select>
+                     </div> 
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">College / School Name:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_name1" placeholder="Ener your college name and city seperated by comma(,)" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="college_%1" placeholder="Ener your % or CGPA" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Main Subjects / Specialization:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_sb1" placeholder="Ener your main subject or specialization here" required >
+                     </div>
+                  </div><br><br>
+                  <div class="form-group"> 
+                     <label for="Qualification" class="col-sm-4 control-label">Highest Qualification:</label>
+                     <div class="col-sm-8">
+                     <select class="form-control" id="qualification2" placeholder="Enter your qualification in prioritize order" required="">
+                     <option>Graduation</option>
+                     <option selected="">12th</option>
+                     <option>10th</option>
+                     </select>
+                     </div> 
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">College / School Name:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_name2" placeholder="Ener your college name and city seperated by comma(,)" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="college_%2" placeholder="Ener your % or CGPA" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Main Subjects / Specialization:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_sb2" placeholder="Ener your main subject or specialization here" required >
+                     </div>
+                  </div><br><br>
+                  <div class="form-group"> 
+                     <label for="Qualification" class="col-sm-4 control-label">Highest Qualification:</label>
+                     <div class="col-sm-8">
+                     <select class="form-control" id="qualification3" placeholder="Enter your qualification in prioritize order" required="">
+                     <option>Graduation</option>
+                     <option>12th</option>
+                     <option selected="">10th</option>
+                     </select>
+                     </div> 
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">College / School Name:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_name3" placeholder="Ener your college name and city seperated by comma(,)" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="college_%3" placeholder="Ener your % or CGPA" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Main Subjects / Specialization:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control text-capitalize" id="college_sb3" placeholder="Ener your main subject or specialization here" required >
+                     </div>
+                  </div><br><br>
+                  <div class="step_button">
+                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step2">Previous</a></button>
+                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step4">Next</a></button>
+                  </div>
+
+                </div>
+              </form>
+            </div>            
+          </div> 
+            <!--********************************step4*********************-->
+          <div class="row step" id="step4">
+            <div class="step2 stepall" >
+              <p class="step2 stepall">Step 4 of 6.</p>
+            </div>
+            <!--*******************************step4 form *************-->
+           <div class="step4_form stepall_form">
+              <form>
+                <div class="form-horizontal">
+                  <div class="form-group">
+                    <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="extra_curricular" ></textarea>
+                    </div>
+                  </div>
+                  <div class="step_button">
+                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step3">Previous</a></button>
+                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step5">Next</a></button>
+                  </div>
+                </div>  
+              </form>
+           </div>        
+          </div> 
+            <!--********************************step5*********************-->
+          <div class="row step" id="step5">
+            <div class="step2 stepall" >
+              <p class="step2 stepall">Step 5 of 6.</p>
+            </div>
+            <!--*******************************step5 form *************-->
+           <div class="step5_form stepall_form">
+              <form>
+                <div class="form-horizontal">
+                  <div class="form-group"> 
+                     <label for="gender" class="col-sm-4 control-label">Gender:</label>
+                     <div class="col-sm-8">
+                     <select class="form-control" id="gender" placeholder="Enter your qualification in prioritize order" required="">
+                     <option>Feamle</option>
+                     <option>Male</option>
+                     <option>Other</option>
+                     </select>
+                     </div> 
+                  </div>
+                  <div class="form-group">
+                    <label for="hobbie" class="col-sm-4 control-label">Hobbies:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-capitalize" rows="2" id="hobbie" ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="hobbie" class="col-sm-4 control-label">Language Known:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-capitalize" rows="2" id="language" ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="hobbie" class="col-sm-4 control-label">Nationality:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="nationality" placeholder="Enter Your Nationality Here" required="">
+                     </div>
+                    </div>
+                  </div>
+                  <div class="step_button">
+                  <button type="submit" class="btn btn-success left_step1_button"><a href="#step4">Previous</a></button>
+                  <button type="submit" class="btn btn-success right_step1_button"><a href="#step6">Next</a></button>
+                  </div>  
+                </div>
+              </form>
+           </div>
+             <!--********************************step6*********************-->
+          <div class="row step" id="step6">
+            <div class="step6 stepall" >
+              <p class="step6 stepall">Step 6 of 6.</p>
+            </div><br>
+            <p class="step6_p">Select One of the template from Below</p>
+          </div>     
+            <!-- *************** ***************  footer  ******************-->
+          <div class="row ">
+            <div class="footer" id="footer">
+                <p class="copyright"><span class="copyright"> 2016 &copy; resumemaker.com</span></p> 
+            </div>
+          </div>
+      </div><!--row inside end-->
+
+      <!-- JavaScript Personal -->
+      <script type="text/javascript" src="js/frontpage.js"</script>
+
+      <!-- jQuery -->
+      <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+  </body>
+</html>

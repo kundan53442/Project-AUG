@@ -1,0 +1,150 @@
+body{
+	margin: 0px 12%;
+	padding: 0;
+}
+  /* ---------------------- Header --------------------------*/
+.header{
+
+	background-color: #283747;
+	height: 7em;
+	font-family: cursive sans-serif;
+	margin-top: -20px;
+	border-radius: 10px;
+	border-bottom: 3px solid black;
+}
+
+.header_h1{
+
+	text-align: center;
+	color: white;
+	padding: 16px;
+	font-size: 3em;
+	line-height: .6;
+	
+}
+
+.header_p, a {
+
+	color: black;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	text-decoration: underline;
+
+	
+}
+
+@media screen and (max-width: 768px) {
+	body{
+
+		margin: 0px 40px;
+	}
+
+	.header{
+
+	    border-radius: 0px;
+	    border-bottom: 3px solid black;
+
+    }
+
+    .header_h1{
+
+	padding: 16px;
+	font-size: 2em;
+	line-height: .6;
+	
+    }
+}
+
+/* -------------------------step 1----------------------*/
+
+.stepall{
+	background-color: grey;
+	height: 3em;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	border-radius: 10px;
+	border-bottom: 5px solid white;
+}
+
+@media screen and (max-width: 768px) {
+	.stepall{
+
+	padding: 5px;
+	border-radius: 0px;
+    }
+}
+
+/* ------------------------step1 form ---------*/
+
+.stepall_form{
+	margin-top: 0px;
+	padding: 30px 20%;
+	
+}
+
+.step {
+       border: 3px solid black;
+       border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+	.step {
+       border: 3px solid black;
+       border-radius: 0px;
+}
+}
+
+.step_button{
+	padding: 10%;
+}
+
+.left_step1_button{
+	float: left;
+}
+
+.right_step1_button{
+	float: right;
+}
+
+/*----------------------step2-------------------*/
+textarea{
+	text-transform: initial;
+}
+
+/*----------------------step3-------------------*/
+.step3_p{
+	text-align: center;
+	color: purple;
+
+}
+/*----------------------step3-------------------*/
+.step6_p{
+	text-align: center;
+	color: purple;
+	font-size: 2em;
+
+}
+
+/*-------------------footer--------------------*/
+.footer{
+	background-color: #283747;
+	height: 4em;
+	font-family: cursive sans-serif;
+	border-radius: 10px;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+       border-radius: 0px;
+    }
+}
