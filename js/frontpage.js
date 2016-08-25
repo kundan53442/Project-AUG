@@ -9,14 +9,14 @@ $(document).ready(function(){
       $("#step4").hide();
       $("#step5").hide();
       $("#step6").hide();
-      $("#front_page").show();
+      $("#front_page").show(500);
 
       $("#f_button").on('click',function(){
         
-        $("#front_page").hide();
-      	$("#header").show();
-      	$("#footer").show();
-      	$("#step1").show();
+        $("#front_page").hide(500);
+      	$("#header").show(500);
+      	$("#footer").show(500);
+      	$("#step1").show(500);
       	$("#step2").hide();
       	$("#step3").hide();
       	$("#step4").hide();
@@ -27,10 +27,10 @@ $(document).ready(function(){
 
       $("#s1_n").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
-      	$("#step1").hide();
-      	$("#step2").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
+      	$("#step1").hide(500);
+      	$("#step2").show(500);
       	$("#step3").hide();
       	$("#step4").hide();
       	$("#step5").hide();
@@ -38,27 +38,27 @@ $(document).ready(function(){
 
       });
 
-      $("#s1_home").on('click',function(){
+      $(".s1_home").on('click',function(){
 
-      	$("#front_page").show();
-      	$("#header").hide();
-      	$("#footer").hide();
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
+      	$("#front_page").show(500);
+      	$("#header").hide(500);
+      	$("#footer").hide(500);
+      	$("#step1").hide(500);
+      	$("#step2").hide(500);
+      	$("#step3").hide(500);
+      	$("#step4").hide(500);
+      	$("#step5").hide(500);
+      	$("#step6").hide(500);
 
       });
 
       $("#s2_n").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").show();
+      	$("#step2").hide(500);
+      	$("#step3").show(500);
       	$("#step4").hide();
       	$("#step5").hide();
       	$("#step6").hide();
@@ -67,10 +67,10 @@ $(document).ready(function(){
 
       $("#s2_p").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
-      	$("#step1").show();
-      	$("#step2").hide();
+      	$("#header").show(500);
+      	$("#footer").show(500);
+      	$("#step1").show(500);
+      	$("#step2").hide(500);
       	$("#step3").hide();
       	$("#step4").hide();
       	$("#step5").hide();
@@ -80,12 +80,12 @@ $(document).ready(function(){
 
       $("#s3_n").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
       	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").show();
+      	$("#step3").hide(500);
+      	$("#step4").show(500);
       	$("#step5").hide();
       	$("#step6").hide();
 
@@ -93,11 +93,11 @@ $(document).ready(function(){
 
       $("#s3_p").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
-      	$("#step2").show();
-      	$("#step3").hide();
+      	$("#step2").show(500);
+      	$("#step3").hide(500);
       	$("#step4").hide();
       	$("#step5").hide();
       	$("#step6").hide();
@@ -106,25 +106,25 @@ $(document).ready(function(){
 
       $("#s4_n").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
       	$("#step2").hide();
       	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").show();
+      	$("#step4").hide(500);
+      	$("#step5").show(500);
       	$("#step6").hide();
 
       });
 
       $("#s4_p").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
       	$("#step2").hide();
-      	$("#step3").show();
-      	$("#step4").hide();
+      	$("#step3").show(500);
+      	$("#step4").hide(500);
       	$("#step5").hide();
       	$("#step6").hide();
 
@@ -132,26 +132,26 @@ $(document).ready(function(){
 
       $("#s5_n").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
       	$("#step2").hide();
       	$("#step3").hide();
       	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").show();
+      	$("#step5").hide(500);
+      	$("#step6").show(500);
 
       });
 
       $("#s5_p").on('click',function(){
 
-      	$("#header").show();
-      	$("#footer").show();
+      	$("#header").show(500);
+      	$("#footer").show(500);
       	$("#step1").hide();
       	$("#step2").hide();
       	$("#step3").hide();
-      	$("#step4").show();
-      	$("#step5").hide();
+      	$("#step4").show(500);
+      	$("#step5").hide(500);
       	$("#step6").hide();
 
       });

