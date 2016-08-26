@@ -1,0 +1,66 @@
+.A4_background {
+  background-image: url("image/back-ground.png");
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm;
+  padding: 17px;
+  
+}
+ 
+.padding{
+     width: 20cm;
+     height: 29cm;
+     border: 2px solid black;
+     padding: 10px;
+}
+
+.r_head1{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+} 
+
+.r_head2{
+    margin-top: 20px;
+    font-size: 14px;
+} 
+
+.subheader1{
+    background-color: grey;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.subheader2{
+    background-color: grey;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.exp_body{
+    margin-left: 10px;
+}
+
+.exp_body1{
+       padding-left: 100px;
+       line-height: 2;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }

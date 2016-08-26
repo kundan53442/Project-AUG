@@ -3,22 +3,25 @@
  <head>
 	  <title>Easy Resume Maker</title>
 	  <!-- Page icon at top -->
-    <link rel="icon" href="surfing.jpg" type="image/x-icon" />
+    <link rel="icon" href="image/surfing.jpg" type="image/x-icon" />
 
     <!-- for responsive web design and disable zooming capabilities on mobile devices by adding user-scalable=no -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--cloudflare font cdn-->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Font family -->
     <link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
 
 
     <link rel="stylesheet" type="text/css" href="css/frontpage.css">
+    <link rel="stylesheet" type="text/css" href="css/template.css">
 
     <style type="text/css">
     body{
 
-     background-image: url("back-ground.png");
+     background-image: url("image/back-ground.png");
      height: 45em;
 
     }
@@ -298,8 +301,24 @@
           <div class="row step" id="step6">
             <div class="step6 stepall" >
               <p class="step6 stepall">Step 6 of 6.</p>
-            </div><br>
-            <p class="step6_p">Select One of the template from Below</p>
+            </div>
+
+            <!--*******************************step6 form *************-->
+            <div class="step6_form stepall_form6">  
+               <p class="step6_p">Select One of the template from Below</p>
+                    <div class="row">
+                       <div class="col-sm-6 image1">
+                          <img src="image/template1.png" id="image1" /><a href="image/template1.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template1</button></a>
+                        </div>
+                       <div class="col-sm-6 image1">
+                          <img src="image/template2.png" id="image2" />
+                          <a href="image/template2.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template2</button></a>
+                       </div>
+                    </div>
+                    <div class="step_button">
+                    <button type="button" class="btn btn-success left_step1_button" id="s6_p">Previous</button>
+                    </div>
+            </div> 
           </div>     
             <!-- *************** ***************  footer  ******************-->
           <div class="row ">
@@ -309,12 +328,199 @@
           </div>
       </div><!--row inside end-->
 
+
+
+
+  <!--*************************Template1********************************-->
+
+
+
+      <!--***********Header of resume***************-->
+  <div class="A4_background" id="template1">
+    <page size="A4">
+      <div class="padding">
+        <div class="r_head1">
+        <span id="r_name"> Ansari Alam</span><br>
+        <span id="r_spl"> B.E, Mechanical Engineer</span><br>
+        <span id="r_email"> alamansari@gmail.com</span><br>+91-
+        <span id="r_phone"> 9786546523</span>
+        </div><br>
+
+       <!--***********Work Experience***************--> 
+        <div class="r_exp">
+            <div class="subheader1"><b>Work Experience</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of experience:
+            <span id="r_n.exp">4</span><br><br>
+            <i style="font-size:8px" class="fa">&#xf111;</i><span id="r_j.des">&nbsp I am working as senior technical manager in "Tata Hitach, Banglore". I have helped the company to tackle many technical issue.</span>
+            </div>
+        </div><br>
+          
+       <!--*************Qualification***************-->
+        <div class="r_qual">
+            <div class="subheader1"><b>Academic Profile</b></div><br>
+            <table class="table table-bordered">
+                  <thead>
+                     <tr>
+                         <th>Standard</th>
+                         <th>College / School Name</th>
+                         <th>% / CGPA</th>
+                         <th>Main Subjects / Specialization</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                         <td id="stn1">B.E</td>
+                         <td id="college1">IIT, Delhi</td>
+                         <td id="cgpa1">7.7</td>
+                         <td id="sub1">Mechanical</td>
+                     </tr>
+                     <tr>
+                         <td id="stn2">12th</td>
+                         <td id="college2">DPS, Delhi</td>
+                         <td id="cgpa2">95</td>
+                         <td id="sub2">Science, Math</td>
+                     </tr>
+                     <tr>
+                         <td id="stn3">10th</td>
+                         <td id="college3">PCS, Patna</td>
+                         <td id="cgpa3">98</td>
+                         <td id="sub3">All</td>
+                     </tr>
+                  </tbody>
+            </table>
+        </div>
+
+       <!--***********Extra Curricular***************-->
+        <div class="r_activity">
+            <div class="subheader1"><b>Work Experience</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp Member of runner up team “Astitva”, in Skit Play during “FIESTA 13”, held in the college in
+            November 2013.
+            </div>
+        </div><br>
+       
+       <!--***********Other Information***************-->
+        <div class="r_add">
+            <div class="subheader1"><b>Additional Information</b></div><br>
+                  <div class="exp_body1">
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b><span id="r_gender">&nbspMale</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b><span id="r_hobbies">&nbspReading, Playing Soccer</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b><span id="r_lan">&nbsp&nbspEnglish, Hindi, Maithili</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="r_nationality">Indian</span><br>
+                  </div>
+        </div><br>
+
+       <!--***********Declaration**************-->
+        <div class="r_dec">
+            <div class="subheader1"><b>Declaration</b></div><br>I Mr. Ansari Alam solemnly declare that the information in this resume is truly stated and
+            verified.<br><br>
+            <span style="float:left">Date:</span><span style="margin-left: 20em">Place:</span><span style="float: right">Signature:</span>
+      </div>        
+    </page>
+  </div>
+  </page>
+
+
+
+  <!--*************************Template2********************************-->
+
+
+
+      <!--***********Header of resume***************-->
+  <div class="A4_background" id="template2">
+    <page size="A4">
+      <div class="padding">
+        <div class="r_head2">
+        <span id="r_name"> Ansari Alam</span><br>
+        <span id="r_spl"> B.E, Mechanical Engineer</span><br>
+        <span id="r_email"> alamansari@gmail.com</span><br>+91-
+        <span id="r_phone"> 9786546523</span>
+        </div><br>
+
+       <!--***********Work Experience***************--> 
+        <div class="r_exp">
+            <div class="subheader2"><b>Work Experience</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of experience:
+            <span id="r_n.exp">4</span><br><br>
+            <i style="font-size:8px" class="fa">&#xf111;</i><span id="r_j.des">&nbsp I am working as senior technical manager in "Tata Hitach, Banglore". I have helped the company to tackle many technical issue.</span>
+            </div>
+        </div><br>
+          
+       <!--*************Qualification***************-->
+        <div class="r_qual">
+            <div class="subheader2"><b>Academic Profile</b></div><br>
+            <table class="table table-bordered">
+                  <thead>
+                     <tr>
+                         <th>Standard</th>
+                         <th>College / School Name</th>
+                         <th>% / CGPA</th>
+                         <th>Main Subjects / Specialization</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                         <td id="stn1">B.E</td>
+                         <td id="college1">IIT, Delhi</td>
+                         <td id="cgpa1">7.7</td>
+                         <td id="sub1">Mechanical</td>
+                     </tr>
+                     <tr>
+                         <td id="stn2">12th</td>
+                         <td id="college2">DPS, Delhi</td>
+                         <td id="cgpa2">95</td>
+                         <td id="sub2">Science, Math</td>
+                     </tr>
+                     <tr>
+                         <td id="stn3">10th</td>
+                         <td id="college3">PCS, Patna</td>
+                         <td id="cgpa3">98</td>
+                         <td id="sub3">All</td>
+                     </tr>
+                  </tbody>
+            </table>
+        </div>
+
+       <!--***********Extra Curricular***************-->
+        <div class="r_activity">
+            <div class="subheader2"><b>Work Experience</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp Member of runner up team “Astitva”, in Skit Play during “FIESTA 13”, held in the college in
+            November 2013.
+            </div>
+        </div><br>
+       
+       <!--***********Other Information***************-->
+        <div class="r_add">
+            <div class="subheader2"><b>Additional Information</b></div><br>
+                  <div class="exp_body1">
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b><span id="r_gender">&nbspMale</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b><span id="r_hobbies">&nbspReading, Playing Soccer</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b><span id="r_lan">&nbsp&nbspEnglish, Hindi, Maithili</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="r_nationality">Indian</span><br>
+                  </div>
+        </div><br>
+
+       <!--***********Declaration**************-->
+        <div class="r_dec">
+            <div class="subheader2"><b>Declaration</b></div><br>I Mr. Ansari Alam solemnly declare that the information in this resume is truly stated and
+            verified.<br><br>
+            <span style="float:left">Date:</span><span style="margin-left: 20em">Place:</span><span style="float: right">Signature:</span>
+      </div>        
+    </page>
+  </div> 
+
+</body>    
+
       
       <!-- jQuery -->
       <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
 
       <!-- JavaScript Personal -->
       <script type="text/javascript" src="js/frontpage.js"</script>
+      <script type="text/javascript" src="js/store.js"></script>
 
       
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
