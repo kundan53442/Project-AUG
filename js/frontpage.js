@@ -11,7 +11,7 @@ $(document).ready(function(){
       $("#step6").hide();
       $("#front_page").show(500);
       $("#template1").hide();
-      $("#template3").show();
+      $("#template2").show();
 
 
 
@@ -224,8 +224,8 @@ $(document).ready(function(){
       	$("#step4").hide(500);
       	$("#step5").hide(500);
       	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").show();
+      	$("#template1").show();
+      	$(".template2").hide();
 
 
       });
