@@ -10,7 +10,8 @@ $(document).ready(function(){
       $("#step6").hide();
       $("#front_page").show(500);
       $("#template1").hide();
-      $("#template2").hide();     
+      $("#template2").hide();
+      $("#thank_page").hide();     
 
 
 
@@ -26,6 +27,7 @@ $(document).ready(function(){
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -40,6 +42,7 @@ $(document).ready(function(){
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -55,6 +58,7 @@ $(document).ready(function(){
       	$("#step5").hide(500);
       	$("#step6").hide(500);
       	$("#template1").hide();
+        $("#thank_page").hide(500);
 
       });
 
@@ -69,6 +73,7 @@ $(document).ready(function(){
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -84,6 +89,7 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -98,6 +104,7 @@ $(document).ready(function(){
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -112,6 +119,7 @@ $(document).ready(function(){
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -127,6 +135,7 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -142,6 +151,7 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -157,6 +167,7 @@ $(document).ready(function(){
       	$("#step6").show(500);
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -173,6 +184,7 @@ $(document).ready(function(){
       	$("#step6").hide();
         $("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -188,6 +200,7 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
       });
 
@@ -203,6 +216,7 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").show();
       	$("#template2").hide();
+        $("#thank_page").hide();
 
 
       });
@@ -219,6 +233,24 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").show();
+        $("#thank_page").hide();
+
+
+      });
+
+      $("#t1_f, #t2_f").on('click',function(){
+
+        $("#header").hide(500);
+        $("#footer").hide(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide(500);
+        $("#step5").hide(500);
+        $("#step6").hide();
+        $("#template1").hide();
+        $("#template2").hide();
+        $("#thank_page").show(500);
 
 
       });
@@ -259,6 +291,7 @@ $(document).ready(function(){
         
             // template 1
            document.getElementById("r_name").innerHTML = user.fullname;
+           document.getElementById("rd_name").innerHTML = user.fullname;
            document.getElementById("r_spl").innerHTML = user.specialization;
            document.getElementById("r_email").innerHTML = user.email;
            document.getElementById("r_phone").innerHTML = user.phone;
@@ -286,6 +319,7 @@ $(document).ready(function(){
 
            //template2
            document.getElementById("2r_name").innerHTML = user.fullname;
+           document.getElementById("2rd_name").innerHTML = user.fullname;
            document.getElementById("2r_spl").innerHTML = user.specialization;
            document.getElementById("2r_email").innerHTML = user.email;
            document.getElementById("2r_phone").innerHTML = user.phone;

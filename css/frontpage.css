@@ -39,6 +39,18 @@
 	 display:block;
 }
 
+.submit{
+	 
+	 margin-left:auto;
+	 margin-right:auto;
+	 display:block;
+}
+
+.sub_pad{
+
+	padding: 3px;
+}
+
 @media screen and (max-width: 768px){
         
   .front_page{
@@ -99,7 +111,7 @@
 @media screen and (max-width: 768px) {
 	.inside{
 
-		margin: 0px 30px;
+		margin: 0px 20px;
 	}
 
 	.header{
@@ -158,7 +170,13 @@
 	.step {
        border: 3px solid black;
        border-radius: 0px;
-}
+    }
+    .stepall_form{
+
+	padding: 30px 10%;
+	
+    }
+
 }
 
 .step_button{
@@ -197,19 +215,22 @@ img{
 	height: 100%;
 	padding: 10px;
 	cursor: pointer;
+	background-color: red;
 }
 
-.image1{
-	background-color: red;
-	opacity: 1;
-	border: 2px solid white;
-	
-}
 .stepall_form6{
 	margin-top: 0px;
 	padding: 30px 20%;
 	background-color: white;
 	opacity: .85;
+}
+
+@media screen and (max-width: 768px) {
+	.step6_p{
+	    font-size: 1.5em;
+
+    }
+
 }
 
 
@@ -232,4 +253,20 @@ img{
 	.footer {
        border-radius: 0px;
     }
+}
+
+/*-------------------button--------------------*/
+
+.black-button{
+	background-color: #669900;
+
+}
+
+.finish{
+	  
+	  margin-left: 45%;
+}
+
+.btm{
+	margin-top: -50px;
 }
