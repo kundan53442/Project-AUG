@@ -63,7 +63,7 @@
             </div>
            <!-- ****************** step 1 form ************************-->
             <div class="step1_form stepall_form" id="step1_form">
-              <form>
+              <form >
                 <div class="form-horizontal">
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">Name:</label>
@@ -74,13 +74,13 @@
                   <div class="form-group">
                      <label for="inputEmail3" class="col-sm-4 control-label">Email:</label>
                      <div class="col-sm-8">
-                     <input type="email" class="form-control text-lowercase" id="inputEmail3" placeholder="Email" required="">
+                     <input type="email" class="form-control text-lowercase" id="usr_email" placeholder="Email" required="">
                      </div>
                   </div>
                   <div class="form-group">
                     <label for="usr" class="col-sm-4 control-label">Phone:</label>
                     <div class="col-sm-8">
-                    <input type="tel" class="form-control" id="usr_phone" placeholder="xxxxxxxxxx" value="+91" maxlength="13" name="phone" required="">
+                    <input type="tel" class="form-control" id="usr_phone" placeholder="xxxxxxxxxx"  maxlength="10" name="phone" required="">
                     </div>
                   </div>
                   <div class="form-group">
@@ -91,7 +91,7 @@
                   </div>
                   <div class="step_button">
                   <button type="button" class="btn btn-success left_step1_button s1_home">Home</button>
-                  <button type="button" class="btn btn-success right_step1_button" id="s1_n">Next</button>
+                  <button type="" class="btn btn-success right_step1_button" id="s1_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -120,7 +120,7 @@
                   </div>
                   <div class="step_button">
                   <button type="button" class="btn btn-success left_step1_button" id="s2_p">Previous</button>
-                  <button type="button" class="btn btn-success right_step1_button" id="s2_n">Next</button>
+                  <button type="" class="btn btn-success right_step1_button" id="s2_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -155,7 +155,7 @@
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
                      <div class="col-sm-8">
-                     <input type="text" class="form-control" id="college_%1" placeholder="Ener your % or CGPA" required >
+                     <input type="text" class="form-control" id="college_p1" placeholder="Ener your % or CGPA" required >
                      </div>
                   </div>
                   <div class="form-group">
@@ -183,7 +183,7 @@
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
                      <div class="col-sm-8">
-                     <input type="text" class="form-control" id="college_%2" placeholder="Ener your % or CGPA" required >
+                     <input type="text" class="form-control" id="college_p2" placeholder="Ener your % or CGPA" required >
                      </div>
                   </div>
                   <div class="form-group">
@@ -211,7 +211,7 @@
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
                      <div class="col-sm-8">
-                     <input type="text" class="form-control" id="college_%3" placeholder="Ener your % or CGPA" required >
+                     <input type="text" class="form-control" id="college_p3" placeholder="Ener your % or CGPA" required >
                      </div>
                   </div>
                   <div class="form-group">
@@ -222,7 +222,7 @@
                   </div><br><br>
                   <div class="step_button">
                   <button type="button" class="btn btn-success left_step1_button" id="s3_p">Previous</button>
-                  <button type="button" class="btn btn-success right_step1_button" id="s3_n">Next</button>
+                  <button type="" class="btn btn-success right_step1_button" id="s3_n">Next</button>
                   </div>
 
                 </div>
@@ -246,7 +246,7 @@
                   </div>
                   <div class="step_button">
                   <button type="button" class="btn btn-success left_step1_button" id="s4_p">Previous</button>
-                  <button type="button" class="btn btn-success right_step1_button" id="s4_n">Next</button>
+                  <button type="" class="btn btn-success right_step1_button" id="s4_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -292,7 +292,7 @@
                   </div>
                   <div class="step_button">
                   <button type="button" class="btn btn-success left_step1_button" id="s5_p">Previous</button>
-                  <button type="button" class="btn btn-success right_step1_button" id="s5_n">Next</button>
+                  <button type="" class="btn btn-success right_step1_button" id="s5_n">Next</button>
                   </div>  
                 </div>
               </form>
@@ -308,10 +308,11 @@
                <p class="step6_p">Select One of the template from Below</p>
                     <div class="row">
                        <div class="col-sm-6 image1">
-                          <img src="image/template1.png" id="image1" /><a href="image/template1.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template1</button></a>
+                          <img src="image/template1.png" id="image1" />
+                          <a href="image/template1.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template1</button></a>
                         </div>
                        <div class="col-sm-6 image1">
-                          <a href="template2.html"><img src="image/template2.png" id="image2" /></a> 
+                          <img src="image/template2.png" id="image2" />
                           <a href="image/template2.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template2</button></a>
                        </div>
                     </div>
@@ -336,15 +337,15 @@
 
 
       <!--***********Header of resume***************-->
-      <div id="template1">
+ <div id="template1">
   <div class="A4_background" >
     <page size="A4">
       <div class="padding">
         <div class="r_head1">
-        <span id="r_name"> Ansari Alam</span><br>
-        <span id="r_spl"> B.E, Mechanical Engineer</span><br>
-        <span id="r_email"> alamansari@gmail.com</span><br>+91-
-        <span id="r_phone"> 9786546523</span>
+        <span id="r_name"></span><br>
+        <span id="r_spl"></span><br>
+        <span id="r_email"></span><br>+91-
+        <span id="r_phone"></span>
         </div><br>
 
        <!--***********Work Experience***************--> 
@@ -352,8 +353,8 @@
             <div class="subheader1"><b>Work Experience</b></div><br>
             <div class="exp_body">
             <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of experience:
-            <span id="r_n.exp">4</span><br><br>
-            <i style="font-size:8px" class="fa">&#xf111;</i><span id="r_j.des">&nbsp I am working as senior technical manager in "Tata Hitach, Banglore". I have helped the company to tackle many technical issue.</span>
+            <span id="r_n.exp"></span><br><br>
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_j.des"></span>
             </div>
         </div><br>
           
@@ -371,22 +372,22 @@
                   </thead>
                   <tbody>
                      <tr>
-                         <td id="stn1">B.E</td>
-                         <td id="college1">IIT, Delhi</td>
-                         <td id="cgpa1">7.7</td>
-                         <td id="sub1">Mechanical</td>
+                         <td id="stn1"></td>
+                         <td id="college1"></td>
+                         <td id="cgpa1"></td>
+                         <td id="sub1"></td>
                      </tr>
                      <tr>
-                         <td id="stn2">12th</td>
-                         <td id="college2">DPS, Delhi</td>
-                         <td id="cgpa2">95</td>
-                         <td id="sub2">Science, Math</td>
+                         <td id="stn2"></td>
+                         <td id="college2"></td>
+                         <td id="cgpa2"></td>
+                         <td id="sub2"></td>
                      </tr>
                      <tr>
-                         <td id="stn3">10th</td>
-                         <td id="college3">PCS, Patna</td>
-                         <td id="cgpa3">98</td>
-                         <td id="sub3">All</td>
+                         <td id="stn3"></td>
+                         <td id="college3"></td>
+                         <td id="cgpa3"></td>
+                         <td id="sub3"></td>
                      </tr>
                   </tbody>
             </table>
@@ -394,10 +395,9 @@
 
        <!--***********Extra Curricular***************-->
         <div class="r_activity">
-            <div class="subheader1"><b>Work Experience</b></div><br>
+            <div class="subheader1"><b>Extra Curricular Activity</b></div><br>
             <div class="exp_body">
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp Member of runner up team “Astitva”, in Skit Play during “FIESTA 13”, held in the college in
-            November 2013.
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_EC"></span>
             </div>
         </div><br>
        
@@ -405,10 +405,10 @@
         <div class="r_add">
             <div class="subheader1"><b>Additional Information</b></div><br>
                   <div class="exp_body1">
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b><span id="r_gender">&nbspMale</span><br>
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b><span id="r_hobbies">&nbspReading, Playing Soccer</span><br>
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b><span id="r_lan">&nbsp&nbspEnglish, Hindi, Maithili</span><br>
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="r_nationality">Indian</span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b>&nbsp<span id="r_gender"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b>&nbsp<span id="r_hobbies"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="r_lan"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="r_nationality"></span><br>
                   </div>
         </div><br>
 
@@ -417,22 +417,118 @@
             <div class="subheader1"><b>Declaration</b></div><br>I Mr. Ansari Alam solemnly declare that the information in this resume is truly stated and
             verified.<br><br>
             <span style="float:left">Date:</span><span style="margin-left: 20em">Place:</span><span style="float: right">Signature:</span>
-      </div>       
+      </div>
+     </div>        
     </page>
   </div>
 
+        <div class="step_button">
+          <button type="button" class="btn btn-success left_step1_button" id="t1_p">Previous</button>              
+          <button type="" class="btn btn-success right_step1_button" id="t1print">Print Resume</button>
+        </div>
+ </div> 
+
+    <!--*************************Template2********************************-->
 
 
 
-</body>    
+      <!--***********Header of resume***************-->
+ <div id="template2">
+  <div class="A4_background" >
+    <page size="A4">
+      <div class="padding">
+        <div class="r_head2">
+        <span id="2r_name"></span><br>
+        <span id="2r_spl"></span><br>
+        <span id="2r_email"></span><br>+91-
+        <span id="2r_phone"></span>
+        </div><br>
 
+       <!--***********Work Experience***************--> 
+        <div class="r_exp">
+            <div class="subheader2"><b>Work Experience</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of experience:
+            <span id="2r_n.exp"></span><br><br>
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_j.des"></span>
+            </div>
+        </div><br>
+          
+       <!--*************Qualification***************-->
+        <div class="r_qual">
+            <div class="subheader2"><b>Academic Profile</b></div><br>
+            <table class="table table-bordered">
+                  <thead>
+                     <tr>
+                         <th>Standard</th>
+                         <th>College / School Name</th>
+                         <th>% / CGPA</th>
+                         <th>Main Subjects / Specialization</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                         <td id="2stn1"></td>
+                         <td id="2college1"></td>
+                         <td id="2cgpa1"></td>
+                         <td id="2sub1"></td>
+                     </tr>
+                     <tr>
+                         <td id="2stn2"></td>
+                         <td id="2college2"></td>
+                         <td id="2cgpa2"></td>
+                         <td id="2sub2"></td>
+                     </tr>
+                     <tr>
+                         <td id="2stn3"></td>
+                         <td id="2college3"></td>
+                         <td id="2cgpa3"></td>
+                         <td id="2sub3"></td>
+                     </tr>
+                  </tbody>
+            </table>
+        </div>
+
+       <!--***********Extra Curricular***************-->
+        <div class="r_activity">
+            <div class="subheader2"><b>Extra Curricular Activity</b></div><br>
+            <div class="exp_body">
+            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_EC"></span>
+            </div>
+        </div><br>
+       
+       <!--***********Other Information***************-->
+        <div class="r_add">
+            <div class="subheader2"><b>Additional Information</b></div><br>
+                  <div class="exp_body1">
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b>&nbsp<span id="2r_gender"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b>&nbsp<span id="2r_hobbies"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="2r_lan"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="2r_nationality"></span><br>
+                  </div>
+        </div><br>
+
+       <!--***********Declaration**************-->
+        <div class="r_dec">
+            <div class="subheader2"><b>Declaration</b></div><br>I Mr. Ansari Alam solemnly declare that the information in this resume is truly stated and
+            verified.<br><br>
+            <span style="float:left">Date:</span><span style="margin-left: 20em">Place:</span><span style="float: right">Signature:</span>
+      </div>
+     </div>        
+    </page>
+  </div>
+
+        <div class="step_button">
+          <button type="button" class="btn btn-success left_step1_button" id="t2_p">Previous</button>              
+          <button type="" class="btn btn-success right_step1_button" id="t2print">Print Resume</button>
+        </div>
+ </div> 
       
       <!-- jQuery -->
       <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
 
       <!-- JavaScript Personal -->
       <script type="text/javascript" src="js/frontpage.js"</script>
-      <script type="text/javascript" src="js/store.js"></script>
 
       
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
