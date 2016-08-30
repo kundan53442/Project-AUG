@@ -13,8 +13,7 @@ $(document).ready(function(){
       $("#front_page").show(500);
       $("#template1").hide();
       $("#template2").hide();
-      $("#thank_page").hide();     
-
+      $("#thank_page").hide();
 
 
       $("#f_button").on('click',function(){
@@ -65,6 +64,7 @@ $(document).ready(function(){
 
       });
 
+      
       $("#s2_n").on('click',function(){
 
       	$("#header").show(500);
