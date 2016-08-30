@@ -1,3 +1,5 @@
+//hide and show effect
+
 $(document).ready(function(){
      
       $("#header").hide();
@@ -30,7 +32,7 @@ $(document).ready(function(){
         $("#thank_page").hide();
 
       });
-
+      
       $("#s1_n").on('click',function(){
 
       	$("#header").show(500);
@@ -43,8 +45,9 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
         $("#thank_page").hide();
+      });  
 
-      });
+  
 
       $(".s1_home").on('click',function(){
 
@@ -77,7 +80,7 @@ $(document).ready(function(){
 
       });
 
-      $("#s2_p").on('click',function(){
+      $(".s2_p").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -108,7 +111,7 @@ $(document).ready(function(){
 
       });
 
-      $("#s3_p").on('click',function(){
+      $(".s3_p").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -139,7 +142,7 @@ $(document).ready(function(){
 
       });
 
-      $("#s4_p").on('click',function(){
+      $(".s4_p").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -172,7 +175,7 @@ $(document).ready(function(){
       });
 
 
-      $("#s5_p").on('click',function(){
+      $(".s5_p").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -256,6 +259,8 @@ $(document).ready(function(){
       });
       
 });
+
+// Data storing and retrieving 
 
 $(document).ready(function(){   
 
@@ -343,9 +348,17 @@ $(document).ready(function(){
            document.getElementById("2r_lan").innerHTML = user.language;
            document.getElementById("2r_nationality").innerHTML = user.nationality;
 
-        });
+        });        
 
 });
 
+      // function to print page    
+           function printPage() {
+             window.print();
+           };
+      // Elert for next button click
+           function alert(){
+             alert("Please submit this step")
+           };
 
 

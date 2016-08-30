@@ -130,6 +130,11 @@
     }
 }
 
+.note{
+	color: red;
+	text-align: center;
+}
+
 /* -------------------------step 1----------------------*/
 
 .stepall{
