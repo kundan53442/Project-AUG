@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--cloudflare font cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!-- Font family -->
-    <link href="https://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
+   
 
 
     <link rel="stylesheet" type="text/css" href="css/frontpage.css">
@@ -21,8 +20,11 @@
     <style type="text/css">
     body{
 
-     background-image: url("image/image2.jpg");
-     height: 45em;
+      background: url("image/image2.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
 
     }
   </style> 
@@ -44,24 +46,27 @@
           </div>
       </div>
       </div> 
-     </div>    
+     </div> 
 
-           <!--Inside-->
+
+
+           <!--***************Inside******-->
       <div class="row inside" id="inside">
          <!-- ******************** Header  ********************************-->
           <div class="row ">
             <div class="header" id="header">
-                <h1 class="header_h1">easyreumemaker.com</h1>
+                <h1 class="header_h1">easyresumemaker.com</h1>
                 <p class="header_p s1_home"><a href="#">HOME</a></p> 
             </div>
       	  </div>
+
 
            <!--********************* Step 1  ***************************-->
           <div class="row step" id="step1">
             <div class="step1 stepall">
               <p class="step1 stepall">Step 1 of 6.</p>
             </div>
-           <!-- ****************** step 1 form ************************-->
+           <!-- ****************** Personal Details form ************************-->
             <div class="step1_form stepall_form" id="step1_form">
             <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
              </p><br>
@@ -93,10 +98,10 @@
                   </div>
                   <div class="step_button">
                      <div class="sub_pad">
-                       <button type="button" class="btn btn-success left_step1_button s1_home">Home</button>
                        <button type="" class="btn btn-success submit">Submit</button>
-                     </div>  
-                       <button type="button" class="btn btn-success right_step1_button" id="s1_n">Next</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s1_home">Home</button> 
+                       <button type="submit" class="btn btn-success right_step1_button" id="s1_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -104,33 +109,95 @@
           </div>
             <!--********************************step2*********************-->
           <div class="row step" id="step2">
-            <div class="step2 stepall" >
+            <div class="step2 stepall step2_h" >
               <p class="step2 stepall">Step 2 of 6.</p>
             </div>
-            <!--*******************************step2 form *************-->
+            <!--*******************************Work Exp form *************-->
           <div class="step2_form stepall_form">
-          <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
+             <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.<br>
              </p><br>
               <form>
                 <div class="form-horizontal">
-                  <div class="form-group">
-                     <label for="usr" class="col-sm-4 control-label">Years of Experience:</label>
-                     <div class="col-sm-8">
-                     <input type="number" class="form-control" id="usr_exp" placeholder="Select no. of years of expeience you have" required >
-                     </div>
-                  </div>
-                  <div class="form-group">
+
+                  <!--*****************************Job description 1 *************-->
+
+
+                  <div class="form-group jd1">
+                    <label for="" class="col-sm-4 control-label">Current Employer:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="ce1" placeholder="Enter most recent one" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">From:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="ce_f1" placeholder="format: June2010" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">To:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="ce_t1" placeholder="format: Jan2016" required=""><br>
+                    </div>
                     <label for="comment" class="col-sm-4 control-label">Job Description:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="job_description" required="" ></textarea>
+                    <textarea class="form-control text-initial" rows="5" id="job_description1" required="" placeholder="Mention Job-title and achievement if any."></textarea><br>
+                    </div>
+                    <button type="button" class="btn btn-default right_step1_button add1">
+                       add&nbsp;<span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div><br>
+
+
+                  <!--*****************************Job description 2 *************-->
+
+
+                  <div class="form-group jd2">
+                    <label for="" class="col-sm-4 control-label">Previous Employer:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe2" placeholder="Enter your previous employer" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">From:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe_f2" placeholder="format: Apr2008" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">To:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe_t2" placeholder="format: May2010" required=""><br>
+                    </div>
+                    <label for="comment" class="col-sm-4 control-label">Job Description2:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="job_description2" required="" placeholder="Mention Job-title and achievement if any."></textarea><br>
+                    </div>
+                    <button type="button" class="btn btn-default right_step1_button add2">
+                       add&nbsp;<span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div><br>
+
+
+                  <!--*****************************Job description 3 *************-->
+
+
+                  <div class="form-group jd3">
+                    <label for="" class="col-sm-4 control-label">Previous Employer2:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe3" placeholder="Enter your other previous employer" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">From:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe_f3" placeholder="format: June2006" required=""><br>
+                    </div>
+                    <label for="" class="col-sm-4 control-label">To:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control text-capitalize" id="pe_t3" placeholder="format: March2008" required=""><br>
+                    </div> 
+                    <label for="comment" class="col-sm-4 control-label">Job Description3:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="job_description3" required="" placeholder="Mention Job-title and achievement if any."></textarea>
                     </div>
                   </div>
                   <div class="step_button">
                      <div class="sub_pad">
-                       <button type="button" class="btn btn-success left_step1_button s2_p">Previous</button>
                        <button type="" class="btn btn-success submit">Submit</button>
-                     </div>  
-                       <button type="button" class="btn btn-success right_step1_button" id="s2_n">Next</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s2_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s2_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -141,10 +208,10 @@
             <div class="step3 stepall" >
               <p class="step3 stepall">Step 3 of 6.</p>
             </div>
-              <!--*******************************step3 form *************-->
+              <!--*******************************Qualification form *************-->
             <div class="step3_form stepall_form">
-            <p class="step3_p">Note: Enter your qualification details in prioritize order(Higher first)</p><p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
-             </p><br>
+                 <p class="step3_p">Note: Enter your qualification details in prioritize order(Higher first)</p><p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
+                 </p><br>
 
               <form>
                 <div class="form-horizontal">
@@ -168,6 +235,12 @@
                      <label for="usr" class="col-sm-4 control-label">% / CGPA:</label>
                      <div class="col-sm-8">
                      <input type="text" class="form-control" id="college_p1" placeholder="Ener your % or CGPA" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Academic Year:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="ay1" placeholder="Formate: YYYY-YYYY" required >
                      </div>
                   </div>
                   <div class="form-group">
@@ -199,6 +272,12 @@
                      </div>
                   </div>
                   <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Academic Year:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="ay2" placeholder="Formate: YYYY-YYYY" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">Main Subjects / Specialization:</label>
                      <div class="col-sm-8">
                      <input type="text" class="form-control" id="college_sb2" placeholder="Ener your main subject or specialization here" required >
@@ -227,17 +306,23 @@
                      </div>
                   </div>
                   <div class="form-group">
+                     <label for="usr" class="col-sm-4 control-label">Academic Year:</label>
+                     <div class="col-sm-8">
+                     <input type="text" class="form-control" id="ay3" placeholder="Formate: YYYY-YYYY" required >
+                     </div>
+                  </div>
+                  <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">Main Subjects / Specialization:</label>
                      <div class="col-sm-8">
                      <input type="text" class="form-control" id="college_sb3" placeholder="Ener your main subject or specialization here" required >
                      </div>
                   </div><br><br>
                   <div class="step_button">
-                     <div class="sub_pad">
-                       <button type="button" class="btn btn-success left_step1_button s3_p">Previous</button>
+                     <div class="sub_pad">  
                        <button type="" class="btn btn-success submit">Submit</button>
-                     </div>  
-                       <button type="button" class="btn btn-success right_step1_button" id="s3_n">Next</button>
+                     </div><br><br>
+                       <button type="button" class="btn btn-success left_step1_button s3_p">Previous</button>
+                       <button type="submit" class="btn btn-success right_step1_button" id="s3_n">Next</button>
                   </div>
                 </div>
               </form>
@@ -248,24 +333,33 @@
             <div class="step2 stepall" >
               <p class="step2 stepall">Step 4 of 6.</p>
             </div>
-            <!--*******************************step4 form *************-->
+            <!--*******************************Extra Curricular Activity form *************-->
            <div class="step4_form stepall_form">
            <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
              </p><br>
               <form>
                 <div class="form-horizontal">
-                  <div class="form-group">
+                  <div class="form-group ac1">
                     <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="extra_curricular" required="" ></textarea>
+                    <textarea class="form-control text-initial" rows="5" id="extra_curricular1" required="" ></textarea><br>
+                    </div>
+                    <button type="button" class="btn btn-default right_step1_button add4">
+                       add&nbsp;<span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div><br>
+                  <div class="form-group ac2">
+                    <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity2:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="extra_curricular2" required="" ></textarea>
                     </div>
                   </div>
                   <div class="step_button">
                      <div class="sub_pad">
-                       <button type="button" class="btn btn-success left_step1_button s4_p">Previous</button>
                        <button type="" class="btn btn-success submit">Submit</button>
-                     </div>  
-                       <button type="button" class="btn btn-success right_step1_button" id="s4_n">Next</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s4_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s4_n">Next</button>
                   </div>
                 </div>  
               </form>
@@ -308,19 +402,19 @@
                     <label for="hobbie" class="col-sm-4 control-label">Nationality:</label>
                     <div class="col-sm-8">
                     <input type="text" class="form-control text-capitalize" id="nationality" placeholder="Enter Your Nationality Here" required="">
-                     </div>
+                    </div>
                     </div>
                   </div>
                   <div class="step_button">
                      <div class="sub_pad">
-                       <button type="button" class="btn btn-success left_step1_button s5_p">Previous</button>
                        <button type="" class="btn btn-success submit">Submit</button>
-                     </div>  
-                       <button type="button" class="btn btn-success right_step1_button" id="s5_n">Next</button>
-                  </div>  
-                </div>
-              </form>
-           </div>
+                     </div><br><br>
+                       <button type="button" class="btn btn-success left_step1_button s5_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s5_n">Next</button>
+                  </div>
+              </form>     
+             </div>              
+          </div>
              <!--********************************step6*********************-->
           <div class="row step" id="step6">
             <div class="step6 stepall" >
@@ -339,17 +433,17 @@
                           <img src="image/template2.png" id="image2" />
                           <a href="image/template2.png" target="_blank"><button type="button" class="btn btn-success right_step1_button">View Template2</button></a>
                        </div>
-                    </div>
+                    </div><br><br>
                     <div class="step_button">
                     <button type="button" class="btn btn-success left_step1_button" id="s6_p">Previous</button>
-                    </div>
-                    <button type="" class="btn btn-success submit">Submit</button>
+                    <button type="" class="btn btn-success submit right_step1_button">Submit</button>
+                    </div> 
             </div> 
           </div>     
             <!-- *************** ***************  footer  ******************-->
           <div class="row ">
             <div class="footer" id="footer">
-                <p class="copyright"><span class="copyright"> 2016 &copy; resumemaker.com</span></p> 
+                <p class="copyright"><span class="copyright"> 2016 &copy; easyresumemaker.com</span></p> 
             </div>
           </div>
       </div><!--row inside end-->
@@ -377,9 +471,18 @@
         <div class="r_exp">
             <div class="subheader1"><b>Work Experience</b></div><br>
             <div class="exp_body">
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of Experience:
-            <span id="r_n.exp"></span><br><br>
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_j.des"></span>
+                <div class="jd1">
+                       <b><span id="emp1" class="text-capitalize">&nbsp;</span>(<span id="empfr1" class="text-capitalize"></span>-<span id="empto1" class="text-capitalize"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="r_j.des1" style="text-align:justify"></span>
+                </div><br> 
+                <div class="jd2">
+                       <b><span id="emp2" class="text-capitalize">&nbsp;</span>(<span id="empfr2" class="text-capitalize"></span>-<span id="empto2" class="text-capitalize"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="r_j.des2" style="text-align:justify"></span>
+                </div> <br>
+                <div class="jd3">
+                       <b><span id="emp3" class="text-capitalize">&nbsp;</span>(<span id="empfr3"></span>-<span id="empto3"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="r_j.des3" style="text-align:justify"></span>
+                </div>       
             </div>
         </div><br>
           
@@ -392,27 +495,31 @@
                          <th>Standard</th>
                          <th>College / School Name</th>
                          <th>% / CGPA</th>
+                         <th>Academic Year</th>
                          <th>Main Subjects / Specialization</th>
                      </tr>
                   </thead>
                   <tbody>
                      <tr>
                          <td id="stn1"></td>
-                         <td id="college1"></td>
-                         <td id="cgpa1"></td>
-                         <td id="sub1"></td>
+                         <td id="college1" class="text-capitalize"></td>
+                         <td id="cgpa1" class="text-capitalize"></td>
+                         <td id="ayr1" class="text-capitalize">tyui</td>
+                         <td id="sub1" class="text-capitalize"></td>
                      </tr>
                      <tr>
-                         <td id="stn2"></td>
-                         <td id="college2"></td>
-                         <td id="cgpa2"></td>
-                         <td id="sub2"></td>
+                         <td id="stn2" class="text-capitalize"></td>
+                         <td id="college2" class="text-capitalize"></td>
+                         <td id="cgpa2" class="text-capitalize"></td>
+                         <td id="ayr2" class="text-capitalize"></td>
+                         <td id="sub2" class="text-capitalize"></td>
                      </tr>
                      <tr>
-                         <td id="stn3"></td>
-                         <td id="college3"></td>
-                         <td id="cgpa3"></td>
-                         <td id="sub3"></td>
+                         <td id="stn3" class="text-capitalize"></td>
+                         <td id="college3" class="text-capitalize"></td>
+                         <td id="cgpa3" class="text-capitalize"></td>
+                         <td id="ayr3" class="text-capitalize"></td>
+                         <td id="sub3" class="text-capitalize"></td>
                      </tr>
                   </tbody>
             </table>
@@ -422,7 +529,12 @@
         <div class="r_activity">
             <div class="subheader1"><b>Extra Curricular Activity</b></div><br>
             <div class="exp_body">
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_EC"></span>
+                   <div class="ac1">
+                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_EC1" style="text-align:justify"></span>
+                   </div><br>
+                   <div class="ac2">
+                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="r_EC2" style="text-align:justify"></span>
+                   </div>
             </div>
         </div><br>
        
@@ -432,7 +544,7 @@
                   <div class="exp_body1">
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b>&nbsp<span id="r_gender"></span><br>
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b>&nbsp<span id="r_hobbies"></span><br>
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="r_lan"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="r_lan" class="text-capitalize"></span><br>
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="r_nationality" class="text-capitalize"></span><br>
                   </div>
         </div><br>
@@ -449,10 +561,10 @@
 
         <div class="step_button btm">
           <button type="button" class="btn black-button left_step1_button" id="t1_p"><b>Previous</b></button>
+          <button onclick="printPage()" type="" class="btn black-button right_step1_button" id="t1print"><b>Print Resume</b></button><br><br>
           <div class="finish">
-          <button type="button" class="btn black-button left_step1_button" id="t1_f"><b>Finish</b></button>
-          </div><br><br>
-          <button onclick="printPage()" type="" class="btn black-button right_step1_button" id="t1print"><b>Print Resume</b></button>
+              <button type="button" class="btn black-button left_step1_button" id="t1_f"><b>Finish</b></button>
+          </div>
         </div>
  </div> 
 
@@ -475,11 +587,18 @@
        <!--***********Work Experience***************--> 
         <div class="r_exp">
             <div class="subheader2"><b>Work Experience</b></div><br>
-            <div class="exp_body">
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp No. of years of Experience:
-            <span id="2r_n.exp"></span><br><br>
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_j.des"></span>
-            </div>
+                <div class="jd1">
+                       <b><span id="2emp1" class="text-capitalize">&nbsp;</span>(<span id="2empfr1" class="text-capitalize"></span>-<span id="2empto1" class="text-capitalize"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="2r_j.des1"></span>
+                </div><br> 
+                <div class="jd2">
+                       <b><span id="2emp2" class="text-capitalize">&nbsp;</span>(<span id="2empfr2" class="text-capitalize"></span>-<span id="2empto2" class="text-capitalize"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="2r_j.des2"></span>
+                </div> <br>
+                <div class="jd3">
+                       <b><span id="2emp3" class="text-capitalize">&nbsp;</span>(<span id="2empfr3" class="text-capitalize"></span>-<span id="2empto3" class="text-capitalize"></span>)</b><br>
+                       <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="2r_j.des3"></span>
+                </div>       
         </div><br>
           
        <!--*************Qualification***************-->
@@ -496,22 +615,25 @@
                   </thead>
                   <tbody>
                      <tr>
-                         <td id="2stn1"></td>
-                         <td id="2college1"></td>
-                         <td id="2cgpa1"></td>
-                         <td id="2sub1"></td>
+                         <td id="2stn1" class="text-capitalize"></td>
+                         <td id="2college1" class="text-capitalize"></td>
+                         <td id="2cgpa1" class="text-capitalize"></td>
+                         <td id="2ayr1" class="text-capitalize"></td>
+                         <td id="2sub1" class="text-capitalize"></td>
                      </tr>
                      <tr>
-                         <td id="2stn2"></td>
-                         <td id="2college2"></td>
-                         <td id="2cgpa2"></td>
-                         <td id="2sub2"></td>
+                         <td id="2stn2" class="text-capitalize"></td>
+                         <td id="2college2" class="text-capitalize"></td>
+                         <td id="2cgpa2" class="text-capitalize"></td>
+                         <td id="2ayr2" class="text-capitalize"></td>
+                         <td id="2sub2" class="text-capitalize"></td>
                      </tr>
                      <tr>
-                         <td id="2stn3"></td>
-                         <td id="2college3"></td>
-                         <td id="2cgpa3"></td>
-                         <td id="2sub3"></td>
+                         <td id="2stn3" class="text-capitalize"></td>
+                         <td id="2college3" class="text-capitalize"></td>
+                         <td id="2cgpa3" class="text-capitalize"></td>
+                         <td id="2ayr3" class="text-capitalize"></td>
+                         <td id="2sub3" class="text-capitalize"></td>
                      </tr>
                   </tbody>
             </table>
@@ -521,7 +643,12 @@
         <div class="r_activity">
             <div class="subheader2"><b>Extra Curricular Activity</b></div><br>
             <div class="exp_body">
-            <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_EC"></span>
+                   <div class="ac1">
+                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_EC1" style="text-align:justify"></span>
+                   </div><br>
+                   <div class="ac2">
+                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<span id="2r_EC2" style="text-align:justify"></span>
+                   </div>
             </div>
         </div><br>
        
@@ -531,7 +658,7 @@
                   <div class="exp_body1">
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Gender:</b>&nbsp<span id="2r_gender"></span><br>
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Hobbies:</b>&nbsp<span id="2r_hobbies"></span><br>
-                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="2r_lan"></span><br>
+                  <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Language Known:</b>&nbsp&nbsp<span id="2r_lan" class="text-capitalize"></span><br>
                   <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp<b>Nationality:</b><span id="2r_nationality" class="text-capitalize"></span><br>
                   </div>
         </div><br>
@@ -548,10 +675,9 @@
 
         <div class="step_button btm">
           <button type="button" class="btn black-button left_step1_button" id="t2_p"><b>Previous</b></button>
-          <div class="finish">
-          <button type="button" class="btn black-button left_step1_button" id="t2_f"><b>Finish</b></button>
-          </div><br><br>
-          <button onclick="printPage()" type="" class="btn black-button right_step1_button" id="t2print"><b>Print Resume</b></button>
+          <button onclick="printPage()" type="" class="btn black-button right_step1_button" id="t2print"><b>Print Resume</b></button><br><br>    <div class="finish">
+          <button type="button" class="btn black-button left_step1_button" id="t2_f"><b>Finish</b></button><br><br>
+          </div>
         </div>
  </div> 
 
@@ -567,7 +693,7 @@
               <p class="f_para">All the best for your NEXT JOB!!!</p>
           </div>
           <div class="f_button">
-              <button type="button" class="btn btn-success s1_home">Home</button>
+              <a href="index.html"><button type="button" class="btn btn-success">Home</button></a>
           </div>
       </div>
       </div>    
