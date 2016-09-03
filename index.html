@@ -56,7 +56,7 @@
           <div class="row ">
             <div class="header" id="header">
                 <h1 class="header_h1">easyresumemaker.com</h1>
-                <p class="header_p s1_home"><a href="#">HOME</a></p> 
+                <p class="header_p s1_home"><a href="index.html">HOME</a></p> 
             </div>
       	  </div>
 
@@ -70,7 +70,7 @@
             <div class="step1_form stepall_form" id="step1_form">
             <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
              </p><br>
-              <form >                     
+              <form id="form_1">                     
                 <div class="form-horizontal">
                   <div class="form-group">
                      <label for="usr" class="col-sm-4 control-label">Name:</label>
@@ -98,7 +98,7 @@
                   </div>
                   <div class="step_button">
                      <div class="sub_pad">
-                       <button type="" class="btn btn-success submit">Submit</button>
+                       <button type="" class="btn btn-success submit"> Submit </button>
                      </div><br><br> 
                        <button type="button" class="btn btn-success left_step1_button s1_home">Home</button> 
                        <button type="submit" class="btn btn-success right_step1_button" id="s1_n">Next</button>
@@ -116,12 +116,10 @@
           <div class="step2_form stepall_form">
              <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.<br>
              </p><br>
-              <form>
-                <div class="form-horizontal">
+               <div class="form-horizontal">
 
                   <!--*****************************Job description 1 *************-->
-
-
+                <form id="form_jd1">
                   <div class="form-group jd1">
                     <label for="" class="col-sm-4 control-label">Current Employer:</label>
                     <div class="col-sm-8">
@@ -137,17 +135,24 @@
                     </div>
                     <label for="comment" class="col-sm-4 control-label">Job Description:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="job_description1" required="" placeholder="Mention Job-title and achievement if any."></textarea><br>
+                    <textarea class="form-control text-initial" rows="5" id="job_description1" required="" placeholder="Mention Job-title and achievement if any. Max 240 character." maxlength="240"></textarea><br>
                     </div>
                     <button type="button" class="btn btn-default right_step1_button add1">
                        add&nbsp;<span class="glyphicon glyphicon-plus"></span>
                     </button>
                   </div><br>
-
+                  <div class="step_button sub_jd1">
+                     <div class="sub_pad">
+                       <button type="" class="btn btn-success submit">Submit</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s2_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s2_n_jd1">Next</button>
+                  </div>
+                </form>
 
                   <!--*****************************Job description 2 *************-->
 
-
+                <form id="form_jd2">
                   <div class="form-group jd2">
                     <label for="" class="col-sm-4 control-label">Previous Employer:</label>
                     <div class="col-sm-8">
@@ -163,17 +168,23 @@
                     </div>
                     <label for="comment" class="col-sm-4 control-label">Job Description2:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="job_description2" required="" placeholder="Mention Job-title and achievement if any."></textarea><br>
+                    <textarea class="form-control text-initial" rows="5" id="job_description2" required="" placeholder="Mention Job-title and achievement if any. Max 240 character."  maxlength="240"></textarea><br>
                     </div>
                     <button type="button" class="btn btn-default right_step1_button add2">
                        add&nbsp;<span class="glyphicon glyphicon-plus"></span>
                     </button>
                   </div><br>
-
-
+                  <div class="step_button sub_jd2">
+                     <div class="sub_pad">
+                       <button type="" class="btn btn-success submit">Submit</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s2_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s2_n_jd2">Next</button>
+                  </div>
+                </form>
                   <!--*****************************Job description 3 *************-->
 
-
+                <form id="form_jd3">
                   <div class="form-group jd3">
                     <label for="" class="col-sm-4 control-label">Previous Employer2:</label>
                     <div class="col-sm-8">
@@ -183,24 +194,24 @@
                     <div class="col-sm-8">
                     <input type="text" class="form-control text-capitalize" id="pe_f3" placeholder="format: June2006" required=""><br>
                     </div>
-                    <label for="" class="col-sm-4 control-label">To:</label>
+                    <label for="" class="col-sm-4  control-label">To:</label>
                     <div class="col-sm-8">
                     <input type="text" class="form-control text-capitalize" id="pe_t3" placeholder="format: March2008" required=""><br>
                     </div> 
                     <label for="comment" class="col-sm-4 control-label">Job Description3:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="job_description3" required="" placeholder="Mention Job-title and achievement if any."></textarea>
+                    <textarea class="form-control text-initial" rows="5" id="job_description3" required="" placeholder="Mention Job-title and achievement if any. Max 240 character."  maxlength="240"></textarea>
                     </div>
                   </div>
-                  <div class="step_button">
+                  <div class="step_button sub_jd3">
                      <div class="sub_pad">
                        <button type="" class="btn btn-success submit">Submit</button>
                      </div><br><br> 
                        <button type="button" class="btn btn-success left_step1_button s2_p">Previous</button>  
-                       <button type="submit" class="btn btn-success right_step1_button" id="s2_n">Next</button>
+                       <button type="submit" class="btn btn-success right_step1_button" id="s2_n_jd3">Next</button>
                   </div>
+                </form>  
                 </div>  
-              </form>
            </div>        
           </div>
              <!--********************************step3*********************-->
@@ -213,7 +224,7 @@
                  <p class="step3_p">Note: Enter your qualification details in prioritize order(Higher first)</p><p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
                  </p><br>
 
-              <form>
+              <form id="form_3">
                 <div class="form-horizontal">
                   <div class="form-group"> 
                      <label for="Qualification" class="col-sm-4 control-label">Highest Qualification:</label>
@@ -336,33 +347,46 @@
             <!--*******************************Extra Curricular Activity form *************-->
            <div class="step4_form stepall_form">
            <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
-             </p><br>
-              <form>
+             </p><br>             
                 <div class="form-horizontal">
+
+
+                     <!-- Extra curricular 1 -->
+                 <form id="form_ec1">    
                   <div class="form-group ac1">
                     <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="extra_curricular1" required="" ></textarea><br>
+                    <textarea class="form-control text-initial" rows="5" id="extra_curricular1" required=""  maxlength="240" placeholder="Max 240 character."></textarea><br>
                     </div>
                     <button type="button" class="btn btn-default right_step1_button add4">
                        add&nbsp;<span class="glyphicon glyphicon-plus"></span>
                     </button>
                   </div><br>
-                  <div class="form-group ac2">
-                    <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity2:</label>
-                    <div class="col-sm-8">
-                    <textarea class="form-control text-initial" rows="5" id="extra_curricular2" required="" ></textarea>
-                    </div>
-                  </div>
-                  <div class="step_button">
+                  <div class="step_button sub_ec1">
                      <div class="sub_pad">
                        <button type="" class="btn btn-success submit">Submit</button>
                      </div><br><br> 
                        <button type="button" class="btn btn-success left_step1_button s4_p">Previous</button>  
-                       <button type="submit" class="btn btn-success right_step1_button" id="s4_n">Next</button>
+                       <button type="submit" class="btn btn-success right_step1_button" id="s4_n_ec1">Next</button>
                   </div>
+                 </form> 
+                    <!-- Extra curricular 2 -->
+                 <form id="form_ec2">   
+                  <div class="form-group ac2">
+                    <label for="comment" class="col-sm-4 control-label">Extra Curricular Activity2:</label>
+                    <div class="col-sm-8">
+                    <textarea class="form-control text-initial" rows="5" id="extra_curricular2" required=""  maxlength="240" placeholder="Max 240 character."></textarea>
+                    </div>
+                  </div>
+                  <div class="step_button sub_ec2">
+                     <div class="sub_pad">
+                       <button type="" class="btn btn-success submit">Submit</button>
+                     </div><br><br> 
+                       <button type="button" class="btn btn-success left_step1_button s4_p">Previous</button>  
+                       <button type="submit" class="btn btn-success right_step1_button" id="s4_n_ec2">Next</button>
+                  </div>
+                 </form> 
                 </div>  
-              </form>
            </div>        
           </div> 
             <!--********************************step5*********************-->
@@ -374,7 +398,7 @@
            <div class="step5_form stepall_form">
            <p class="note">Note: 1). Before going to next step please submit the form.<br>                  2). Please keep in mind about case sensitivity of character.
              </p><br>
-              <form>
+              <form id="form_5">
                 <div class="form-horizontal">
                   <div class="form-group"> 
                      <label for="gender" class="col-sm-4 control-label">Gender:</label>
@@ -389,13 +413,13 @@
                   <div class="form-group">
                     <label for="hobbie" class="col-sm-4 control-label">Hobbies:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control" rows="2" id="hobbie" required=""></textarea>
+                    <textarea class="form-control" rows="2" id="hobbie" required=""  maxlength="80" placeholder="Max 100 character."></textarea>
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="hobbie" class="col-sm-4 control-label">Language Known:</label>
                     <div class="col-sm-8">
-                    <textarea class="form-control" rows="2" id="language" required="" ></textarea>
+                    <textarea class="form-control" rows="2" id="language" required=""  maxlength="50" placeholder="Max 50 character."></textarea>
                     </div>
                   </div>
                   <div class="form-group">
@@ -480,7 +504,7 @@
                        <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="r_j.des2" style="text-align:justify"></span>
                 </div> <br>
                 <div class="jd3">
-                       <b><span id="emp3" class="text-capitalize">&nbsp;</span>(<span id="empfr3"></span>-<span id="empto3"></span>)</b><br>
+                       <b><span id="emp3" class="text-capitalize">&nbsp;</span>(<span id="empfr3" class="text-capitalize"></span>-<span id="empto3" class="text-capitalize"></span>)</b><br>
                        <i style="font-size:8px" class="fa">&#xf111;</i>&nbsp;<span id="r_j.des3" style="text-align:justify"></span>
                 </div>       
             </div>

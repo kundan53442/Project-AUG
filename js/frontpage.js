@@ -1,7 +1,8 @@
 //hide and show effect
 
 $(document).ready(function(){
-     
+
+    
       $("#header").hide();
       $("#footer").hide();
       $("#step1").hide();
@@ -37,9 +38,10 @@ $(document).ready(function(){
       	$("#header").show(500);
       	$("#footer").show(500);
       	$("#step1").hide(500);
-      	$("#step2").show(500); 
-                    $(".jd2").hide(); 
-                    $(".jd3").hide();
+      	$("#step2").show(500);
+                    $(".jd1, .sub_jd1, .add1").show();
+                    $(".jd2, .sub_jd2").hide(); 
+                    $(".jd3, .sub_jd3").hide();
       	$("#step3").hide();
       	$("#step4").hide();
       	$("#step5").hide();
@@ -72,9 +74,9 @@ $(document).ready(function(){
         $("#footer").show(500);
         $("#step1").hide(500);
         $("#step2").show(500); 
-                    $(".jd1").show();
-                    $(".jd2").show(); 
-                    $(".jd3").hide();
+                    $(".jd1, .add2").show();
+                    $(".jd2, .sub_jd2").show(); 
+                    $(".jd3, .sub_jd1, .sub_jd3 ").hide();
                     $(".add1").hide();
         $("#step3").hide();
         $("#step4").hide();
@@ -92,8 +94,8 @@ $(document).ready(function(){
         $("#step2").show(500);
                     $(".jd1").show();
                     $(".jd2").show(); 
-                    $(".jd3").show();
-                    $(".add1").hide();
+                    $(".jd3, .sub_jd3").show();
+                    $(".add1, .sub_jd1, .sub_jd2").hide();
                     $(".add2").hide();  
         $("#step3").hide();
         $("#step4").hide();
@@ -104,7 +106,7 @@ $(document).ready(function(){
       });
 
       
-      $("#s2_n").on('click',function(){
+      $("#s2_n_jd1, #s2_n_jd2, #s2_n_jd3").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -144,30 +146,12 @@ $(document).ready(function(){
       	$("#step1").hide();
       	$("#step2").hide();
       	$("#step3").hide(500);
-      	$("#step4").show(500);
-                $(".ac1").show();
-                $(".ac2").hide();
+      	$("#step4").show();
+                $(".ac1, .add4, .sub_ec1").show();
+                $(".ac2, .sub_ec2").hide();
       	$("#step5").hide();
       	$("#step6").hide();
       	$("#template1").hide();
-        $("#thank_page").hide();
-
-      });
-
-      $(".add4").on('click',function(){
-
-        $("#header").show(500);
-        $("#footer").show(500);
-        $("#step1").hide();
-        $("#step2").hide();
-        $("#step3").hide(500);
-        $("#step4").show(500);
-                $(".ac1").show();
-                $(".ac2").show();
-                $(".add4").hide();
-        $("#step5").hide();
-        $("#step6").hide();
-        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -187,7 +171,7 @@ $(document).ready(function(){
 
       });
 
-      $("#s4_n").on('click',function(){
+      $("#s4_n_ec1, #s4_n_ec2").on('click',function(){
 
       	$("#header").show(500);
       	$("#footer").show(500);
@@ -199,6 +183,24 @@ $(document).ready(function(){
       	$("#step6").hide();
       	$("#template1").hide();
       	$("#template2").hide();
+        $("#thank_page").hide();
+
+      });
+
+      $(".add4").on('click',function(){
+
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide(500);
+        $("#step4").show(500);
+                $(".ac1").show();
+                $(".ac2, .sub_ec2").show();
+                $(".add4, .sub_ec1").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -476,5 +478,56 @@ $(document).ready(function(){
            function printPage() {
              window.print();
            };
+
+      
+
+$(document).ready(function(){
+
+    // disabling next button
+    
+    document.getElementById("s1_n").disabled = true;
+    document.getElementById("s2_n_jd1").disabled = true;
+    document.getElementById("s2_n_jd2").disabled = true;
+    document.getElementById("s2_n_jd3").disabled = true;
+    document.getElementById("s3_n").disabled = true;
+    document.getElementById("s4_n_ec1").disabled = true;
+    document.getElementById("s4_n_ec2").disabled = true;
+    document.getElementById("s5_n").disabled = true;
+     
+       // Enabling next button
+
+    $("#form_1").submit(function(){
+        document.getElementById("s1_n").disabled = false;
+        
+    });
+    $("#form_jd1").submit(function(){
+        document.getElementById("s2_n_jd1").disabled = false;
+        
+    });
+    $("#form_jd2").submit(function(){
+        document.getElementById("s2_n_jd2").disabled = false;
+        
+    });
+    $("#form_jd3").submit(function(){
+        document.getElementById("s2_n_jd3").disabled = false;
+        
+    });
+    $("#form_3").submit(function(){
+        document.getElementById("s3_n").disabled = false;
+        
+    });
+    $("#form_ec1").submit(function(){
+        document.getElementById("s4_n_ec1").disabled = false;
+        
+    });
+    $("#form_ec2").submit(function(){
+        document.getElementById("s4_n_ec2").disabled = false;
+        
+    });
+    $("#form_5").submit(function(){
+        document.getElementById("s5_n").disabled = false;
+        
+    });
+});
 
 
