@@ -336,7 +336,7 @@ $(document).ready(function(){
        alert("Please Select one of the template from above");
       }); 
 
-      $("#t1_p, #t2_P").on('click',function(){
+      $("#t1_p, #t2_p").on('click',function(){
        
         $("#header").show(500);
         $("#footer").show(500);
