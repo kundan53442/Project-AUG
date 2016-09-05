@@ -364,12 +364,12 @@ $(document).ready(function(){
            }  
 
            else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
-              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#header,#footer, .r_exp, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
               $("#template1, .r_activity, .ac1").show();
            }
 
            else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e>0))){
-              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#header,#footer, .r_exp, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
               $("#template1, .r_activity, .ac1, .ac2").show();
            }
 
@@ -428,12 +428,12 @@ $(document).ready(function(){
            }  
 
            else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
-              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#header,#footer, .r_exp, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
               $("#template2, .r_activity, .ac1").show();
            }
 
            else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e>0))){
-              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#header,#footer, .r_exp, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
               $("#template2, .r_activity, .ac1, .ac2").show();
            }
 
