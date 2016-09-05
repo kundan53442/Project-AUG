@@ -20,15 +20,15 @@ $(document).ready(function(){
       $("#f_button").on('click',function(){
         
         $("#front_page").hide();
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").show(500);
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").show(500);
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -37,18 +37,18 @@ $(document).ready(function(){
 
         $("#form_1").submit(function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").show(500);
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").show(500);
                     $(".jd1, .sub_jd1, .add1").show();
                     $(".jd2, .sub_jd2").hide(); 
                     $(".jd3, .sub_jd3").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
       }); 
 
@@ -58,16 +58,16 @@ $(document).ready(function(){
 
       $(".s1_home").on('click',function(){
 
-      	$("#front_page").show(500);
-      	$("#header").hide();
-      	$("#footer").hide();
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#front_page").show(500);
+        $("#header").hide();
+        $("#footer").hide();
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -112,15 +112,15 @@ $(document).ready(function(){
       
       $("#s2_n_jd1, #s2_n_jd2, #s2_n_jd3").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").show(500);
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").show(500);
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -129,16 +129,16 @@ $(document).ready(function(){
 
       $(".s2_p").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").show(500);
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").show(500);
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
@@ -147,17 +147,17 @@ $(document).ready(function(){
     $("#s3_n").on('click',function(){
         $("#form_3").submit(function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").show();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").show();
                 $(".ac1, .add4, .sub_ec1").show();
                 $(".ac2, .sub_ec2").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
@@ -165,31 +165,31 @@ $(document).ready(function(){
 
       $(".s3_p").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").show(500);
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").show(500);
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
         $("#thank_page").hide();
 
       });
 
       $("#s4_n_ec1, #s4_n_ec2").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").show(500);
-      	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").show(500);
+        $("#step6").hide();
+        $("#template1").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
@@ -214,16 +214,16 @@ $(document).ready(function(){
 
       $(".s4_p").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").show(500);
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").show(500);
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").hide();
+        $("#template1").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
@@ -232,16 +232,16 @@ $(document).ready(function(){
     $("#s5_n").on('click',function(){
         $("#form_5").submit(function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").show(500);
-      	$("#template1").hide();
-      	$("#template2").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+        $("#step6").show(500);
+        $("#template1").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
@@ -250,69 +250,36 @@ $(document).ready(function(){
 
       $(".s5_p").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").show(500);
-      	$("#step5").hide();
-      	$("#step6").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").show(500);
+        $("#step5").hide();
+        $("#step6").hide();
         $("#template1").hide();
-      	$("#template2").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
 
       $("#s6_p").on('click',function(){
 
-      	$("#header").show(500);
-      	$("#footer").show(500);
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").show(500);
-      	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").hide();
+        $("#header").show(500);
+        $("#footer").show(500);
+        $("#step1").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").show(500);
+        $("#step6").hide();
+        $("#template1").hide();
+        $("#template2").hide();
         $("#thank_page").hide();
 
       });
-
-      $("#image1").on('click',function(){
-
-      	$("#header").hide();
-      	$("#footer").hide();
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").show();
-      	$("#template2").hide();
-        $("#thank_page").hide();
-
-
-      });
-
-      $("#image2").on('click',function(){
-
-      	$("#header").hide();
-      	$("#footer").hide();
-      	$("#step1").hide();
-      	$("#step2").hide();
-      	$("#step3").hide();
-      	$("#step4").hide();
-      	$("#step5").hide();
-      	$("#step6").hide();
-      	$("#template1").hide();
-      	$("#template2").show();
-        $("#thank_page").hide();
-
-
-      });
+      
 
       $("#t1_f, #t2_f").on('click',function(){
 
@@ -344,6 +311,133 @@ $(document).ready(function(){
         $("#step6").show(500);
       });
       
+      // ******************************************************** input check if filled or not for template 1
+
+      $("#image1").on('click',function(){
+           
+          var a = $("#ce1").val().length; 
+          var b = $("#pe2").val().length; 
+          var c = $("#pe3").val().length; 
+          var d = $("#extra_curricular1").val().length; 
+          var e = $("#extra_curricular2").val().length; 
+           
+           if(((a==0)&&(b==0)&&(c==0))&&((d==0)&&(e==0))){
+              
+              $("#header,#footer, .r_exp, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1").show();              
+           }
+
+           else if(((a>0)&&(b==0)&&(c==0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .jd2, .jd3, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c==0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .jd3, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .jd2").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c>0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .jd2, .jd3").show();
+           }
+
+           else if(((a>0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .jd2, .jd3, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .r_activity, ac1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .jd3, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .jd2, .r_activity, ac1").show();
+           }
+
+           
+           else if(((a>0)&&(b>0)&&(c>0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .jd2, .jd3, .r_activity, .ac1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c>0))&&((d>0)&&(e>0))){
+              $("#header,#footer, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_exp, .jd1, .jd2, .jd3, .r_activity, .ac1, .ac2").show();
+           }  
+
+           else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_activity, .ac1").show();
+           }
+
+           else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e>0))){
+              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template2,#thank_page").hide();
+              $("#template1, .r_activity, .ac1, .ac2").show();
+           }
+
+      });
+
+           // ******************************************************** input check if filled or not for template 2
+
+      $("#image2").on('click',function(){
+           
+          var a = $("#ce1").val().length; 
+          var b = $("#pe2").val().length; 
+          var c = $("#pe3").val().length; 
+          var d = $("#extra_curricular1").val().length; 
+          var e = $("#extra_curricular2").val().length; 
+           
+           if(((a==0)&&(b==0)&&(c==0))&&((d==0)&&(e==0))){
+              
+              $("#header,#footer, .r_exp, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2").show();              
+           }
+
+           else if(((a>0)&&(b==0)&&(c==0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .jd2, .jd3, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c==0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .jd3, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .jd2").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c>0))&&((d==0)&&(e==0))){
+              $("#header,#footer, .r_activity, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .jd2, .jd3").show();
+           }
+
+           else if(((a>0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .jd2, .jd3, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .r_activity, ac1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .jd3, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .jd2, .r_activity, ac1").show();
+           }
+
+           
+           else if(((a>0)&&(b>0)&&(c>0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .jd2, .jd3, .r_activity, .ac1").show();
+           }
+
+           else if(((a>0)&&(b>0)&&(c>0))&&((d>0)&&(e>0))){
+              $("#header,#footer, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_exp, .jd1, .jd2, .jd3, .r_activity, .ac1, .ac2").show();
+           }  
+
+           else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e==0))){
+              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_activity, .ac1").show();
+           }
+
+           else if(((a==0)&&(b==0)&&(c==0))&&((d>0)&&(e>0))){
+              $("#header,#footer, .r_exp, ac2, #step1,#step2,#step3,#step4,#step5,#step6,#template1,#thank_page").hide();
+              $("#template2, .r_activity, .ac1, .ac2").show();
+           }
+
+      });
 });
  
 
