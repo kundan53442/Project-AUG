@@ -56,14 +56,27 @@ page[size="A4"] {
        line-height: 2;
 }
 
+.btm{
+  padding-right: 30%; 
+}
+
+@media screen and (max-width: 768px){
+  .btm{
+    padding-right: none;
+    margin-right: -25%;
+    margin-left: -25%;
+  }  
+}
+
 @media print {
   body, page {
     width: 21cm;
     height: 29.7cm;
     }
-  .btm{
+    .btm{
     display: none;
   }  
+  
 }
 
 @media print {
